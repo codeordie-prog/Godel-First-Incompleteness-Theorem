@@ -61,7 +61,7 @@ class GodelEncoder:
 
 
 class GodelDecoder:
-    
+    "Decodes a Gödel number to a statement"
     def decode(self, number: int) -> str:
         """
         Decodes a Gödel number back into a statement.
