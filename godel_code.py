@@ -59,6 +59,9 @@ class GodelEncoder:
             result *= p ** c
         return result
 
+
+class GodelDecoder:
+    
     def decode(self, number: int) -> str:
         """
         Decodes a Gödel number back into a statement.
